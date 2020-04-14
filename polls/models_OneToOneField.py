@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :models_OneToOneField.py
+@说明        :模型一对一
+@时间        :2020/04/14 13:50:07
+@作者        :张强
+@版本        :1.0
+'''
+
+
 from django.db import models
 
 #3.一对一OneToOneField

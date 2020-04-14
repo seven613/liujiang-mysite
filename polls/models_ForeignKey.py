@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :models_ForeignKey.py
+@说明        :模型--外键
+@时间        :2020/04/14 13:48:06
+@作者        :张强
+@版本        :1.0
+'''
+
+
 from django.db import models
 
 # 1.多对一（ForeignKey）

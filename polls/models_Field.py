@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :models_Field.py
+@说明        :模型字段
+@时间        :2020/04/14 13:48:23
+@作者        :张强
+@版本        :1.0
+'''
+
+
+
 from django.db import models
 
 # null 该值为True时，Django在数据库用NULL保存空值。默认值为False。对于保存字符串类型数据的字段，请尽量避免将此参数设为True，那样会导致两种‘没有数据’的情况，一种是NULL，另一种是‘空字符串’。

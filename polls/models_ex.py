@@ -1,3 +1,15 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :models_ex.py
+@说明        :模型的字段类型
+@时间        :2020/04/14 13:48:39
+@作者        :张强
+@版本        :1.0
+'''
+
+
+
  from django.db import models
 # 类型	说明
 # AutoField	一个自动增加的整数类型字段。通常你不需要自己编写它，Django会自动帮你添加字段：id = models.AutoField(primary_key=True)，这是一个自增字段，从1开始计数。如果你非要自己设置主键，那么请务必将字段设置为primary_key=True。Django在一个模型中只允许有一个自增字段，并且该字段必须为主键！

@@ -1,3 +1,14 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+'''
+@文件        :models_ManyToManyField.py
+@说明        :多对多关系
+@时间        :2020/04/14 13:47:47
+@作者        :张强
+@版本        :1.0
+'''
+
+
 from django.db import models
 
 #2.多对多 ManyToManyField
